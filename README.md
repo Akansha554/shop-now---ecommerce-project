@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ShopNow — E-commerce Fullstack App
 
 A fullstack e-commerce web application built with Django REST Framework (backend) and Vue.js 3 + Vuex (frontend).
@@ -104,3 +105,7 @@ Create `backend/.env`:
 ![reviews&ratings](screenshots/reviews&ratings.png)
 ### wishlist 
 ![wishlist](screenshots/wishlist.png)
+=======
+# shop-now---ecommerce-project
+ShopNow is a modern fullstack e-commerce web application built with Django REST Framework and Vue.js 3. The project demonstrates complete frontend and backend integration including product management, cart functionality, order processing, authentication, filtering, debounced search, and real-time cart updates.
+>>>>>>> f6fd6f59b90e490e8229297fb98405538f75401f
