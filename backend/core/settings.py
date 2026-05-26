@@ -20,7 +20,9 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost',
+    '127.0.0.1',
+    'shop-now-ecommerce-project-production.up.railway.app',]
 
 
 # Application definition
@@ -127,7 +129,8 @@ STATIC_URL = 'static/'
 # cors settings
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "shop-now-ecommerce-project.vercel.app",
+    "https://shop-now-ecommerce-project-mzsgl8q7r-akansha-mishra-s-projects.vercel.app",
+    
 ]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = [
