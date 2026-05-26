@@ -33,4 +33,5 @@ urlpatterns = [
     path('reviews/create/',                  views.review_create,  name='review_create'),
     path('reviews/delete/<int:review_id>/',  views.review_delete,  name='review_delete'),
     path('reviews/rating/<int:product_id>/', views.product_rating, name='product_rating'),
+    path('seed/', views.seed_products, name='seed_products'),
 ]
